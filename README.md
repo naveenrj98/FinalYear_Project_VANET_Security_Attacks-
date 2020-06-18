@@ -21,17 +21,17 @@ Detection and Prevention of Security Attacks in VANET
 	  sudo update-alternatives --set java/usr/lib/jvm/jdk1.8.0_version/bin/java
 
 ## Step 2. To Run the App, follow the following steps
-**Step 1:  Certificate Generation**
+  **1:  Certificate Generation**
 -
 	Generate the new certificate by running the command
 	
 		./gen-cert.sh <vehicle1> <vehicle2> ..., new keys will also be generated for ca and RSU in the process.
-**Step 2: Install the App**
+  **2: Install the App**
 -
 	Install All the dependencies required for the project, run the command:
 	
 		sudo apt-get  ./mvn-script.sh install
-**Step 3: Detection of Attack**
+  **3: Detection of Attack**
 -
 	Run the commands to detect and prevent attacks
 		Method 1: sudo  ./mvn-script.sh <entity> [arguments]
