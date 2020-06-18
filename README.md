@@ -1,20 +1,20 @@
 # FinalYear_Project_VANET_Security_Attacks-
 Detection and Prevention of Security Attacks in VANET
-Step 1. To Run our project, following Software needs to be installed
-•	UBUNTU 18.0.0 +
-•	Eclipse
+## Step 1. To Run our project, following Software needs to be installed
+**•	UBUNTU 18.0.0 +**
+**•	Eclipse**
 o	https://linoxide.com/linux-how-to/learn-how-install-latest-eclipse-ubuntu/
-•	MVN
+**•	MVN**
 o	sudo apt-get install mvn
 o	set MVN_HOME Path Variable
-•	JAVA 
+**•	JAVA** 
 o	sudo apt-get install java
 o	set JAVA_HOME Path variable
-•	Open JDK 8
+**•	Open JDK 8**
 o	sudo apt-get install openjdk-8-jdk
 o	sudo update-alternatives --set java/usr/lib/jvm/jdk1.8.0_version/bin/java
 
-Step 2. To Run the App, follow the following steps
+## Step 2. To Run the App, follow the following steps
 •	Step 1:  Certificate Generation
 o	Generate the new certificate by running the command
 	./gen-cert.sh <vehicle1> <vehicle2> ..., new keys will also be generated for ca and RSU in the process.
