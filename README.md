@@ -1,18 +1,24 @@
 # FinalYear_Project_VANET_Security_Attacks-
 Detection and Prevention of Security Attacks in VANET
 ## Step 1. To Run our project, following Software needs to be installed
-**•	UBUNTU 18.0.0 +**
-**•	Eclipse**
-o	https://linoxide.com/linux-how-to/learn-how-install-latest-eclipse-ubuntu/
-**•	MVN**
-o	sudo apt-get install mvn
-o	set MVN_HOME Path Variable
-**•	JAVA** 
-o	sudo apt-get install java
-o	set JAVA_HOME Path variable
-**•	Open JDK 8**
-o	sudo apt-get install openjdk-8-jdk
-o	sudo update-alternatives --set java/usr/lib/jvm/jdk1.8.0_version/bin/java
+**UBUNTU 18.0.0 +**
+-
+**Eclipse**
+-
+     https://linoxide.com/linux-how-to/learn-how-install-latest-eclipse-ubuntu/
+**MVN**
+-
+    sudo apt-get install mvn
+    
+    set MVN_HOME Path Variable
+**JAVA** 
+-
+    sudo apt-get install java
+    set JAVA_HOME Path variable
+**Open JDK 8**
+-
+ 	  sudo apt-get install openjdk-8-jdk
+	  sudo update-alternatives --set java/usr/lib/jvm/jdk1.8.0_version/bin/java
 
 ## Step 2. To Run the App, follow the following steps
 •	Step 1:  Certificate Generation
@@ -33,7 +39,7 @@ o	BEACON_DOS: for DOS attack detection
 •	arguments: (example)
 o	VIN1 vehicle1 750,850 0,0 Sample Massage	
 o	VIN8 vehicle8 10,5 0,0 BAD_SIGNATURES
-o	VIN21 invalidCACert1 5,5 0,0 BAD_CERTIFICATE
+o	VIN21 invalidCACert1 5,5 0,0 BAD_CERTIFICATE  
 o	VIN4 vehicle4 10,5 0,0 BAD_SIGNATURES
 o	VIN6 vehicle6 10,5 0,0 BEACON_DOS
 	Method 2: use the launcher to launch predefined profiles in: profiles_*.txt with: (if name is omited default profile_default.txt is assumed
